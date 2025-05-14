@@ -1,0 +1,32 @@
+.topics-bar {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #2e251f;
+  padding: 1rem;
+  gap: 0.5rem;
+  border-bottom: 2px solid #4a3f35;
+  scroll-behavior: smooth;
+  margin-top: 30px;
+}
+
+.topic-button {
+  background-color: #4a3f35;
+  border: none;
+  color: #d9cab3;
+  padding: 0.5rem 1rem;
+  font-family: "VT323", monospace;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.topic-button:hover {
+  background-color: #665c4f;
+}
+
+.topic-button.active {
+  background-color: #a67b5b;
+  color: #fff9e6;
+}

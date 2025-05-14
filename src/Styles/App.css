@@ -1,0 +1,80 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1e1a16;
+  image-rendering: pixelated;
+}
+
+body {
+  background-color: #1e1a16;
+  color: #d9cab3;
+  font-family: "VT323", monospace;
+}
+
+h1,
+h2,
+h3 {
+  color: #8fbc8f;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 1px 1px 0 #2e251f;
+}
+
+p {
+  color: #c2b280;
+  font-family: "VT323", monospace;
+  font-size: 1rem;
+}
+
+a {
+  color: #a67b5b;
+  transition: color 0.3s ease;
+  font-family: "VT323", monospace;
+  text-decoration: underline dashed #665c4f;
+}
+
+a:hover {
+  color: #f2c94c;
+  text-decoration: underline solid #f2c94c;
+}
+
+.nav-right,
+.top-nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2e251f;
+  padding: 1rem;
+  z-index: 4;
+  box-shadow: 0 -2px 0 #4a3f35;
+  font-family: "Press Start 2P", cursive;
+}
+
+.nav-right {
+  bottom: 0;
+  border-top: 2px solid #4a3f35;
+}
+
+.top-nav {
+  top: 0;
+  border-bottom: 2px solid #4a3f35;
+}
+
+.container {
+  position: absolute;
+  margin-right: 340px;
+
+  display: flex;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.sidebar-icon {
+  margin-top: 3px;
+  margin-left: 10px;
+}
